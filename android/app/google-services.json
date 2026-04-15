@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "552746056346",
+    "firebase_url": "https://mov2proyecto-default-rtdb.firebaseio.com",
+    "project_id": "mov2proyecto",
+    "storage_bucket": "mov2proyecto.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:552746056346:android:47e6137874243e6c3bbd23",
+        "android_client_info": {
+          "package_name": "com.example.taller1nucleo3"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCdiHgaV_qWb9LOT7ZHybuDs9tzonEFw2w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

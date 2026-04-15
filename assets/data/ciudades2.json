@@ -1,0 +1,527 @@
+{
+    "ciudades": [
+      {
+        "nombre": "Quito",
+        "provincia": "Pichincha",
+        "descripcion": "La capital de Ecuador, situada en la región andina, conocida por su bien conservado centro histórico colonial.",
+        "informacion": {
+          "sitio_web": "https://www.quito.gob.ec/",
+          "mapa": "https://goo.gl/maps/3fJ3FmH1U8G2",
+          "imagen": "https://raw.githubusercontent.com/jritsqmet/web-api/main/assets/images/api-ciudades/quito.png",
+          "latitud": -0.180653,
+          "longitud": -78.467834,
+          "poblacion": 2769643,
+          "altitud": "2,850 m",
+          "atracciones_turisticas": [
+            "Centro Histórico de Quito",
+            "Teleférico de Quito",
+            "La Mitad del Mundo"
+          ],
+          "lugares_interes": [
+            "Basílica del Voto Nacional",
+            "Parque La Carolina",
+            "Museo Nacional del Ecuador"
+          ],
+          "actividades": [
+            "Recorrido en bicicleta por el centro histórico",
+            "Visita a mercados locales",
+            "Senderismo en el Pichincha"
+          ]
+        }
+      },
+      {
+        "nombre": "Guayaquil",
+        "provincia": "Guayas",
+        "descripcion": "La ciudad más grande de Ecuador y su principal puerto, conocida por su malecón y el barrio Las Peñas.",
+        "informacion": {
+          "sitio_web": "https://www.guayaquil.gob.ec/",
+          "mapa": "https://goo.gl/maps/4v56SyG1U6F2",
+          "imagen": "https://raw.githubusercontent.com/jritsqmet/web-api/main/assets/images/api-ciudades/guayaquil.jpg",
+          "latitud": -2.170997,
+          "longitud": -79.922359,
+          "poblacion": 2804257,
+          "altitud": "4 m",
+          "atracciones_turisticas": [
+            "Malecón 2000",
+            "Las Peñas",
+            "Parque Histórico de Guayaquil"
+          ],
+          "lugares_interes": [
+            "Cerro Santa Ana",
+            "Parque Seminario",
+            "Mercado Artesanal"
+          ],
+          "actividades": [
+            "Paseo en bote por el río Guayas",
+            "Visita a los manglares de la Isla Santay",
+            "Exploración de la Reserva Ecológica Manglares Churute"
+          ]
+        }
+      },
+      {
+        "nombre": "Cuenca",
+        "provincia": "Azuay",
+        "descripcion": "Una ciudad en las tierras altas del sur de Ecuador, conocida por su arquitectura colonial española y la catedral de la Inmaculada Concepción.",
+        "informacion": {
+          "sitio_web": "https://www.cuenca.gob.ec/",
+          "mapa": "https://goo.gl/maps/7vV3SyG8L5H2",
+          "imagen": "https://raw.githubusercontent.com/jritsqmet/web-api/main/assets/images/api-ciudades/cuenca.webp",
+          "latitud": -2.900128,
+          "longitud": -79.005896,
+          "poblacion": 579000,
+          "altitud": "2,560 m",
+          "atracciones_turisticas": [
+            "Catedral Nueva de Cuenca",
+            "Parque Calderón",
+            "Museo Pumapungo"
+          ],
+          "lugares_interes": [
+            "El Barranco",
+            "Plaza de San Francisco",
+            "Mirador de Turi"
+          ],
+          "actividades": [
+            "Tour gastronómico por el centro histórico",
+            "Visita a las ruinas de Ingapirca",
+            "Exploración de las aguas termales de Baños"
+          ]
+        }
+      },
+      {
+        "nombre": "Manta",
+        "provincia": "Manabí",
+        "descripcion": "Un importante puerto y centro turístico en la costa central de Ecuador, conocido por sus playas y vida nocturna.",
+        "informacion": {
+          "sitio_web": "https://www.manta.gob.ec/",
+          "mapa": "https://goo.gl/maps/2vW9M8L7J3N2",
+          "imagen": "https://raw.githubusercontent.com/jritsqmet/web-api/main/assets/images/api-ciudades/manta.webp",
+          "latitud": -0.967653,
+          "longitud": -80.708911,
+          "poblacion": 217553,
+          "altitud": "6 m",
+          "atracciones_turisticas": [
+            "Playa El Murciélago",
+            "Tarqui Beach",
+            "Parque Nacional Machalilla"
+          ],
+          "lugares_interes": [
+            "Mercado Central",
+            "Plaza Cívica Eloy Alfaro",
+            "Museo del Banco Central"
+          ],
+          "actividades": [
+            "Pesca deportiva en alta mar",
+            "Visita al Parque Nacional Machalilla",
+            "Exploración del faro de la playa San Lorenzo"
+          ]
+        }
+      },
+      {
+        "nombre": "Ambato",
+        "provincia": "Tungurahua",
+        "descripcion": "Conocida como la 'Cuna de los Tres Juanes', es famosa por sus festivales de flores y frutas.",
+        "informacion": {
+          "sitio_web": "https://www.ambato.gob.ec/",
+          "mapa": "https://goo.gl/maps/9vT6V7J2Q4M2",
+          "imagen": "https://raw.githubusercontent.com/jritsqmet/web-api/main/assets/images/api-ciudades/ambato.jpeg",
+          "latitud": -1.248538,
+          "longitud": -78.616741,
+          "poblacion": 330553,
+          "altitud": "2,577 m",
+          "atracciones_turisticas": [
+            "Plaza de la Libertad",
+            "Parque Provincial de la Familia",
+            "Cascada El Manto de la Novia"
+          ],
+          "lugares_interes": [
+            "Catedral de Ambato",
+            "Museo Casa del Portal",
+            "Mercado Modelo"
+          ],
+          "actividades": [
+            "Visita a los Baños Termales de Baños de Agua Santa",
+            "Recorrido gastronómico por la ciudad",
+            "Exploración de la Ruta de las Cascadas"
+          ]
+        }
+      },
+      {
+        "nombre": "Loja",
+        "provincia": "Loja",
+        "descripcion": "Conocida como la 'Capital Musical y Cultural de Ecuador', es famosa por su rica historia y festivales.",
+        "informacion": {
+          "sitio_web": "https://www.loja.gob.ec/",
+          "mapa": "https://goo.gl/maps/3vT7W9J8L9N2",
+          "imagen": "https://raw.githubusercontent.com/jritsqmet/web-api/main/assets/images/api-ciudades/loja3.jpg",
+          "latitud": -3.988025,
+          "longitud": -79.203642,
+          "poblacion": 205558,
+          "altitud": "2,060 m",
+          "atracciones_turisticas": [
+            "Catedral de la Inmaculada Concepción",
+            "Parque Nacional Podocarpus",
+            "Museo de la Música"
+          ],
+          "lugares_interes": [
+            "Puerta de la Ciudad",
+            "Iglesia de San Francisco",
+            "Mercado Central"
+          ],
+          "actividades": [
+            "Visita a la Reserva Biológica San Francisco",
+            "Recorrido por el Jardín Botánico Reinaldo Espinosa",
+            "Exploración de la Ruta del Cacao"
+          ]
+        }
+      },
+      {
+        "nombre": "Portoviejo",
+        "provincia": "Manabí",
+        "descripcion": "Capital de la provincia de Manabí, conocida por su producción agrícola y mercados locales.",
+        "informacion": {
+          "sitio_web": "https://www.portoviejo.gob.ec/",
+          "mapa": "https://goo.gl/maps/8vY8N9J7K5M2",
+          "imagen": "https://raw.githubusercontent.com/jritsqmet/web-api/main/assets/images/api-ciudades/portoviejo.jpg",
+          "latitud": -1.060373,
+          "longitud": -80.454758,
+          "poblacion": 250551,
+          "altitud": "53 m",
+          "atracciones_turisticas": [
+            "Parque Eloy Alfaro",
+            "Iglesia San Francisco de Portoviejo",
+            "Reserva Ecológica Mache Chindul"
+          ],
+          "lugares_interes": [
+            "Plaza Reinaldo Chávez",
+            "Museo Portoviejo",
+            "Parque Universitario"
+          ],
+          "actividades": [
+            "Visita a la Laguna de Pacoche",
+            "Exploración de la Playa de Crucita",
+            "Senderismo en la Reserva Mache Chindul"
+          ]
+        }
+      },
+      {
+        "nombre": "Tulcán",
+        "provincia": "Carchi",
+        "descripcion": "Conocida por sus jardines y esculturas en el cementerio municipal, ubicada en el norte de Ecuador, cerca de la frontera con Colombia.",
+        "informacion": {
+          "sitio_web": "https://www.tulcan.gob.ec/",
+          "mapa": "https://goo.gl/maps/X7w7rpBd8HK2",
+          "imagen": "https://raw.githubusercontent.com/jritsqmet/web-api/main/assets/images/api-ciudades/tulcan.jpg",
+          "latitud": 0.7644,
+          "longitud": -77.7113,
+          "poblacion": 59578,
+          "altitud": "1,260 m",
+          "atracciones_turisticas": [
+            "Cementerio de Tulcán",
+            "Parque El Vado",
+            "Iglesia Matriz de Tulcán"
+          ],
+          "lugares_interes": [
+            "Monumento a los Héroes",
+            "Plaza de la Independencia",
+            "Museo Templo de la Virgen"
+          ],
+          "actividades": [
+            "Recorrido por los jardines del cementerio",
+            "Visita a la frontera con Colombia",
+            "Senderismo en el Parque El Vado"
+          ]
+        }
+      },
+      {
+        "nombre": "Riomamba",
+        "provincia": "Azuay",
+        "descripcion": "Ubicada al sur de Ecuador, es una ciudad conocida por sus paisajes y cultura ancestral.",
+        "informacion": {
+          "sitio_web": "https://www.riomamba.gob.ec/",
+          "mapa": "https://goo.gl/maps/SvPt4oFCZxXQ9Hmg9",
+          "imagen": "https://raw.githubusercontent.com/jritsqmet/web-api/main/assets/images/api-ciudades/riomamba.jpg",
+          "latitud": -2.8245,
+          "longitud": -78.5271,
+          "poblacion": 15000,
+          "altitud": "2,500 m",
+          "atracciones_turisticas": [
+            "Cascada de Chorro Blanco",
+            "Iglesia de Riomamba",
+            "Parque Central"
+          ],
+          "lugares_interes": [
+            "Plaza de los Andes",
+            "Senderos del Bosque Nublado",
+            "Mirador de Riomamba"
+          ],
+          "actividades": [
+            "Senderismo",
+            "Avistamiento de aves",
+            "Visita a las cascadas"
+          ]
+        }
+      },
+      {
+        "nombre": "Esmeraldas",
+        "provincia": "Esmeraldas",
+        "descripcion": "Ciudad costera del norte de Ecuador, conocida por sus playas y el clima tropical.",
+        "informacion": {
+          "sitio_web": "https://www.esmeraldas.gob.ec/",
+          "mapa": "https://goo.gl/maps/64JeeVY11RkPZkwX8",
+          "imagen": "https://raw.githubusercontent.com/jritsqmet/web-api/main/assets/images/api-ciudades/esmeraldas.jpg",
+          "latitud": 0.1207,
+          "longitud": -79.0000,
+          "poblacion": 180000,
+          "altitud": "5 m",
+          "atracciones_turisticas": [
+            "Playa de Atacames",
+            "Isla de los Plátanos",
+            "Parque Central de Esmeraldas"
+          ],
+          "lugares_interes": [
+            "Malecón de Esmeraldas",
+            "Museo Arqueológico de Esmeraldas",
+            "Playa de Mompiche"
+          ],
+          "actividades": [
+            "Nadar en la playa",
+            "Recorrido por el malecón",
+            "Visita a la Isla de los Plátanos"
+          ]
+        }
+      },
+      {
+        "nombre": "Santo Domingo",
+        "provincia": "Santo Domingo de los Tsáchilas",
+        "descripcion": "Una ciudad de gran importancia comercial, rodeada de montañas y selva tropical.",
+        "informacion": {
+          "sitio_web": "https://www.santodomingo.gob.ec/",
+          "mapa": "https://goo.gl/maps/mz7Tgb8vugKkNRnt9",
+          "imagen": "https://raw.githubusercontent.com/jritsqmet/web-api/main/assets/images/api-ciudades/santo-domingo.jpg",
+          "latitud": -0.2543,
+          "longitud": -79.1718,
+          "poblacion": 280000,
+          "altitud": "500 m",
+          "atracciones_turisticas": [
+            "Parque Central",
+            "Museo Cultural Tsáchila",
+            "Río Toachi"
+          ],
+          "lugares_interes": [
+            "Cascada de los Chorros",
+            "Centro de interpretación Tsáchila",
+            "Plaza de la Cultura"
+          ],
+          "actividades": [
+            "Excursión en el río Toachi",
+            "Senderismo en las montañas",
+            "Visita a la cultura Tsáchila"
+          ]
+        }
+      },
+      {
+        "nombre": "Tena",
+        "provincia": "Napo",
+        "descripcion": "Ciudad en la región amazónica de Ecuador, famosa por sus ríos y la biodiversidad de la selva.",
+        "informacion": {
+          "sitio_web": "https://www.tena.gob.ec/",
+          "mapa": "https://goo.gl/maps/jV7SV4WuYkRKrAsd9",
+          "imagen": "https://raw.githubusercontent.com/jritsqmet/web-api/main/assets/images/api-ciudades/tena.jpg",
+          "latitud": -0.9987,
+          "longitud": -77.8080,
+          "poblacion": 23000,
+          "altitud": "512 m",
+          "atracciones_turisticas": [
+            "Parque Ahuano",
+            "Cascada de San Rafael",
+            "Amazonas"
+          ],
+          "lugares_interes": [
+            "Río Napo",
+            "Reserva Biológica Limoncocha",
+            "Mirador Tena"
+          ],
+          "actividades": [
+            "Rafting en el río Napo",
+            "Senderismo por la selva",
+            "Observación de fauna y flora"
+          ]
+        }
+      },
+      {
+        "nombre": "Macas",
+        "provincia": "Morona Santiago",
+        "descripcion": "En el corazón de la Amazonía, Macas es conocida por su riqueza cultural y natural.",
+        "informacion": {
+          "sitio_web": "https://www.macas.gob.ec/",
+          "mapa": "https://goo.gl/maps/SvPt4oFCZxXQ9Hmg9",
+          "imagen": "https://raw.githubusercontent.com/jritsqmet/web-api/main/assets/images/api-ciudades/macas.jpg",
+          "latitud": -2.3000,
+          "longitud": -78.1100,
+          "poblacion": 30000,
+          "altitud": "980 m",
+          "atracciones_turisticas": [
+            "Parque Nacional Sangay",
+            "Cascada de Peguche",
+            "Museo de Macas"
+          ],
+          "lugares_interes": [
+            "Plaza Central",
+            "Puente sobre el Río Upano",
+            "Reserva Biológica Limoncocha"
+          ],
+          "actividades": [
+            "Visita al Parque Nacional Sangay",
+            "Exploración de la selva",
+            "Trekking en las montañas"
+          ]
+        }
+      },
+      {
+        "nombre": "Zamora",
+        "provincia": "Zamora-Chinchipe",
+        "descripcion": "Ciudad amazónica rodeada de montañas y conocida por su biodiversidad.",
+        "informacion": {
+          "sitio_web": "https://www.zamora.gob.ec/",
+          "mapa": "https://goo.gl/maps/X7w7rpBd8HK2",
+          "imagen": "https://raw.githubusercontent.com/jritsqmet/web-api/main/assets/images/api-ciudades/zamora.jpg",
+          "latitud": -4.0700,
+          "longitud": -78.9900,
+          "poblacion": 10000,
+          "altitud": "900 m",
+          "atracciones_turisticas": [
+            "Cascada de Tzankama",
+            "Mirador del Río Zamora",
+            "Reserva Biológica de Podocarpus"
+          ],
+          "lugares_interes": [
+            "Museo de la Cultura",
+            "Plaza Central de Zamora",
+            "Cañón del Río Bombuscaro"
+          ],
+          "actividades": [
+            "Senderismo en la selva",
+            "Observación de flora y fauna",
+            "Visita al río Zamora"
+          ]
+        }
+      },
+      {
+        "nombre": "Salinas",
+        "provincia": "Santa Elena",
+        "descripcion": "Famosa por sus playas y como un destino turístico de sol y mar.",
+        "informacion": {
+          "sitio_web": "https://www.salinas.gob.ec/",
+          "mapa": "https://goo.gl/maps/dJ1AvjyXhjFZ7uJk9",
+          "imagen": "https://raw.githubusercontent.com/jritsqmet/web-api/main/assets/images/api-ciudades/salinas.jpg",
+          "latitud": -2.2394,
+          "longitud": -80.9526,
+          "poblacion": 50000,
+          "altitud": "10 m",
+          "atracciones_turisticas": [
+            "Playa de Salinas",
+            "Malecon de Salinas",
+            "La Chocolatera"
+          ],
+          "lugares_interes": [
+            "Isla de la Plata",
+            "Faro de Salinas",
+            "Museo de Salinas"
+          ],
+          "actividades": [
+            "Relajación en la playa",
+            "Recorrido por el malecón",
+            "Observación de aves"
+          ]
+        }
+      },
+      {
+        "nombre": "Babahoyo",
+        "provincia": "Los Ríos",
+        "descripcion": "Capital de la provincia de Los Ríos, ubicada sobre el río Babahoyo.",
+        "informacion": {
+          "sitio_web": "https://www.babahoyo.gob.ec/",
+          "mapa": "https://goo.gl/maps/ZqJMeJz7tF62",
+          "imagen": "https://raw.githubusercontent.com/jritsqmet/web-api/main/assets/images/api-ciudades/babahoyo.jpg",
+          "latitud": -1.7814,
+          "longitud": -79.5361,
+          "poblacion": 123000,
+          "altitud": "30 m",
+          "atracciones_turisticas": [
+            "Río Babahoyo",
+            "Parque Central",
+            "Iglesia San Jacinto"
+          ],
+          "lugares_interes": [
+            "Mercado Central",
+            "Puente de la Unidad",
+            "Plaza de la Cultura"
+          ],
+          "actividades": [
+            "Recorridos por el río",
+            "Visita al mercado",
+            "Paseo por el parque"
+          ]
+        }
+      },
+      {
+        "nombre": "Quevedo",
+        "provincia": "Los Ríos",
+        "descripcion": "Ciudad conocida como la capital comercial de la provincia de Los Ríos.",
+        "informacion": {
+          "sitio_web": "https://www.quevedo.gob.ec/",
+          "mapa": "https://goo.gl/maps/7vpyQyBoM6Zq",
+          "imagen": "https://raw.githubusercontent.com/jritsqmet/web-api/main/assets/images/api-ciudades/quevedo.jpg",
+          "latitud": -1.0333,
+          "longitud": -79.4600,
+          "poblacion": 200000,
+          "altitud": "60 m",
+          "atracciones_turisticas": [
+            "Parque Central de Quevedo",
+            "Río Quevedo",
+            "Centro Histórico"
+          ],
+          "lugares_interes": [
+            "Plaza de los Presidentes",
+            "Museo Municipal",
+            "Parque de la Ciudad"
+          ],
+          "actividades": [
+            "Paseo por el río",
+            "Visita al centro histórico",
+            "Recorrido por el parque"
+          ]
+        }
+      },
+      {
+        "nombre": "Puerto Baquerizo Moreno",
+        "provincia": "Galápagos",
+        "descripcion": "Capital de la provincia de Galápagos, famosa por su biodiversidad y su conexión con las Islas Galápagos.",
+        "informacion": {
+          "sitio_web": "https://www.galapagos.gob.ec/",
+          "mapa": "https://goo.gl/maps/YRqqSH33XYv",
+          "imagen": "https://raw.githubusercontent.com/jritsqmet/web-api/main/assets/images/api-ciudades/puerto-baquerizo-moreno.jpg",
+          "latitud": -0.9000,
+          "longitud": -89.6167,
+          "poblacion": 7000,
+          "altitud": "0 m",
+          "atracciones_turisticas": [
+            "Parque Nacional Galápagos",
+            "Playa de Oro",
+            "Isla Lobos"
+          ],
+          "lugares_interes": [
+            "Centro de Interpretación",
+            "Malecón de Puerto Baquerizo Moreno",
+            "Iglesia de la Virgen de la Candelaria"
+          ],
+          "actividades": [
+            "Avistamiento de tortugas",
+            "Snorkel en la Isla Lobos",
+            "Exploración de la Isla San Cristóbal"
+          ]
+        }
+      }
+    ]
+  }
+  
