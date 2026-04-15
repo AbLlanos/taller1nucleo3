@@ -8,7 +8,11 @@ class Listascreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(body: listar(context));
+    return Scaffold(
+      appBar: AppBar(
+        title: Text("Lista de ciudades desde api"),
+      ),
+      body: listar(context));
   }
 }
 

@@ -7,7 +7,11 @@ class Historialscreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(body: listar());
+    return Scaffold(
+      appBar: AppBar(
+        title: Text("Historial"),
+      ),
+      body: listar());
   }
 }
 

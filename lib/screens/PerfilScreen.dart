@@ -66,7 +66,6 @@ Widget Datos(String uid) {
 
             const SizedBox(height: 20),
 
-
             ElevatedButton(
               style: ElevatedButton.styleFrom(
                 backgroundColor: Colors.red,

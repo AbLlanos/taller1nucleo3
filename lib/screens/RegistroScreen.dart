@@ -159,7 +159,26 @@ registro(
       });
     }
 
+
+
     Navigator.pushNamed(context, "login");
+
+    showDialog(
+      context: context,
+      builder: (context) {
+        return AlertDialog(
+          title: Text("Exito"),
+          content: Text("usuario registrado correctamente"),
+          actions: [
+            TextButton(
+              onPressed: Navigator.of(context).pop,
+              child: Text("Cerrar"),
+            ),
+          ],
+        );
+      },
+    );
+
   } on FirebaseAuthException catch (e) {
     String message = "";
 
