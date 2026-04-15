@@ -11,19 +11,26 @@ class Detalleslistascreen extends StatelessWidget {
       builder: (context) {
         return AlertDialog(
           title: Text("Nombre:${item["nombre"]}"),
-          content: Column(
-            children: [
-              Text("Nombre:${item["informacion"]["latitud"]}"),
-              Text("Nombre:${item["informacion"]["longitud"]}"),
-              Image.network(
-                "${item["informacion"]["imagen"]}",
-                height: 300,
-                width: 300,
-                errorBuilder: (context, error, stackTrace) {
-                  return Text("Error al cargar la imagen");
-                },
-              ),
-            ],
+          content: Center(
+            
+            child: Column(
+              mainAxisAlignment: MainAxisAlignment.center,
+              crossAxisAlignment: CrossAxisAlignment.center,
+              children: [
+                Text("Laititud:${item["informacion"]["latitud"]}"),
+                Text("Longitud:${item["informacion"]["longitud"]}"),
+                Text("Informacion:${item["informacion"]["poblacion"]}"),
+                 Text("Informacion:${item["informacion"]["actividades"]}"),
+                Image.network(
+                  "${item["informacion"]["imagen"]}",
+                  height: 300,
+                  width: 300,
+                  errorBuilder: (context, error, stackTrace) {
+                    return Text("Error al cargar la imagen");
+                  },
+                ),
+              ],
+            ),
           ),
           actions: [
             TextButton(
