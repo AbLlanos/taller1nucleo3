@@ -115,6 +115,9 @@ Login(
               case "invalid-email":
         message = "Formato de correo inválido";
         break;
+              case "invalid-credential":
+        message = "Credenciales invalidas";
+        break;
 
       default:
         message = "El código del error es : ${e.code}";
