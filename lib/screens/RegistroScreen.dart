@@ -117,7 +117,7 @@ registro(
       celular.text.isEmpty ||
       email.text.isEmpty ||
       password.text.isEmpty) {
-    return showDialog(
+    showDialog(
       context: context,
       builder: (context) {
         return AlertDialog(
@@ -125,13 +125,15 @@ registro(
           content: Text("Todos los campos son obligatorios"),
           actions: [
             TextButton(
-              onPressed: Navigator.of(context).pop,
+              onPressed: () => Navigator.of(context).pop(),
               child: Text("Cerrar"),
             ),
           ],
         );
       },
     );
+
+    return;
   }
 
   try {
